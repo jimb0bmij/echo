@@ -1,6 +1,6 @@
 # echo roku tv
 
-Below is information on the fork.
+Below is information on the fork. No Amazon SDK/Skill needed. The Echo sees it as a local WeMo device on your LAN.
 
 What I have tweaked and added is the part to work with your roku tv the file is roku.py.
 
