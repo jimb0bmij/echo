@@ -388,7 +388,6 @@ class rest_api_handler(object):
 # list will be used.
 ip = "172.31.0.14"
 
-
 FAUXMOS = [
     ['gag', rest_api_handler('http://172.31.0.14:8060/keypress/VolumeMute', 'http://172.31.0.14:8060/keypress/VolumeMute')],
     ['zip', rest_api_handler('http://172.31.0.14:8060/keypress/VolumeMute', 'http://172.31.0.14:8060/keypress/VolumeMute')],
@@ -396,6 +395,8 @@ FAUXMOS = [
     ['home', rest_api_handler('http://172.31.0.14:8060/keypress/Home', 'http://172.31.0.14:8060/launch/tvinput.dtv')],
     ['dvd', rest_api_handler('http://172.31.0.14:8060/launch/tvinput.hdmi3', 'http://172.31.0.14:8060/launch/tvinput.hdmi1')],
     ['video', rest_api_handler('http://172.31.0.14:8060/launch/12', 'http://172.31.0.14:8060/launch/13')],
+    ['sleep', rest_api_handler('http://172.31.0.14:8060/keypress/Sleep', 'http://172.31.0.14:8060/keypress/Left')],
+
 ]
 
 
